@@ -1,0 +1,16 @@
+.input {
+    background-color: #f36363;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.6rem 1.2rem;
+}
+
+.input::file-selector-button {
+    background-color: #242424;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+}

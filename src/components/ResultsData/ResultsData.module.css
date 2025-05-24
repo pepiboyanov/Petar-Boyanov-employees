@@ -1,0 +1,25 @@
+.results {
+    margin: 2rem auto;
+    border-spacing: 0;
+    gap: .5rem;
+}
+
+.results caption {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.results th {
+    border-bottom: 1px solid white;
+}
+
+.results th,
+.results td {
+    padding: .5rem 1rem;
+}
+
+.results th:not(:last-child),
+.results td:not(:last-child) {
+    border-right: 1px solid white;
+}
