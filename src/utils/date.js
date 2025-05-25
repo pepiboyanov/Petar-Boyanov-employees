@@ -44,5 +44,5 @@ export function getOverlappingDays(start1, end1, start2, end2) {
     const soonerEnd = new Date(Math.min(end1, end2));
     const diff = (soonerEnd - laterStart) / (1000 * 60 * 60 * 24);
 
-    return diff >= 0 ? diff + 1 : 0;
+    return diff >= 0 ? Math.floor(diff) + 1 : 0;
 }
